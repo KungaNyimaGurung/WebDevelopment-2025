@@ -1,0 +1,27 @@
+/* Kunga Nyima Gurung 02-27-2025*/
+body {
+    color: black;
+    font-family: Calibri, sans-serif;
+    background-color: #FF9900;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto; /* Centers the wrapper horizontally */
+}
+
+.floatleft { 
+    float: left;
+    margin-right: 2%;
+    }
+.floatright { 
+    float: right;
+    margin-left: 2%;
+        }
+
+nav ul { 
+    list-style-type: none;
+    }
+.boldtext, dt { 
+    font-weight: bold; 
+    }
