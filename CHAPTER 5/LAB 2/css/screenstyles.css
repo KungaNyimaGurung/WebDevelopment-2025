@@ -12,9 +12,9 @@ img {
 
 /* Style for the container centers the page and specifies the width */
 #container {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style for the header specifies top margin, background color, rounded corners, and center align content */
