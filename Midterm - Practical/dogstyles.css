@@ -1,0 +1,41 @@
+/* Kunga Nyima Gurung 03-24-2025 */ 
+   .float-right { float:right; 
+    margin: 0 0 2% 2%; 
+   } 
+   .float-left { float:left; margin: 0 2% 2% 0; 
+   } 
+   .clear-float { clear: both; 
+   } 
+   #page-wrapper { width: 70%; 
+   margin: 0 auto; 
+   } 
+   img{
+    max-width: 100%;
+   }
+
+
+   
+   /* 0 top and bottom, auto left and right */ 
+   body { 
+    max-width: 80%;
+    color: #663300; font-family: Play, Cabin, sans-serif; 
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+   
+   } 
+    /* Background color for the main content */ 
+   #main { background-color: #E0D6CC; padding: 5%; 
+   } 
+   /* padding added to make the content in #main not touch the edge of the box */ 
+    
+   /* styles added to create a horizontal navigation bar */ nav 
+   li { list-style-type: none; 
+   display: inline; 
+   } 
+   /* styles to center banner image - */ .center-img 
+   { display:block; 
+   margin: 0 auto; 
+  align-content: center;
+   } 
