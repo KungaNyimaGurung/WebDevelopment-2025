@@ -1,4 +1,4 @@
-/* Kunga Nyima Gurung 03-19-2025 */
+/* Kunga Nyima Gurung 04-10-2025 */
 
 /* Style for body specifies a background color */
 body {
@@ -29,7 +29,7 @@ header {
 }
 
 #banner {
-	text-align: center;
+	text-align: center;	
 }
 
 /* Style for nav specifies text properties */
@@ -88,6 +88,29 @@ footer {
 .mobile {
 	display: inline;
 }
+/* styling the article heading*/
+article h3 {
+	text-align: center;
+}
+/* styling the figures section*/
+ figure {
+	text-align: center;
+}
+/*styling the figure captions*/
+ figcaption {
+	color: #000066;
+}
+/*styling the sections element*/
+section {
+	padding: 1em;
+	
+}
+/*styling the article element*/
+article {
+	margin: 1em;
+	padding: 1em;
+	background-color: #ACB7E6;
+}
 
 
 /* Media
@@ -96,13 +119,9 @@ viewport targets screen
 size with a minimum width of 481px. */
 
 @media only screen and (min-width: 481px) {
-
-img {
-	width: 80%;
-	}
+	
 
 nav li {
-
 		display: inline;
 		float: left;
 		margin-left: 1%;
@@ -113,6 +132,7 @@ nav li {
 		}
 main {
 	clear: left;
+	overflow: auto;
 		}
 .mobile {
 	display: none;
@@ -130,9 +150,6 @@ size with a minimum width of 769px. */
 
 #container {
 		width: 80%;
-}
-img {
-	width: 60%;
 }
 nav ul {
 	margin: 0;
@@ -172,6 +189,12 @@ body {
     background: -webkit-linear-gradient(#FFFFFF, #3366CC); /* Chrome, Safari */
     background: linear-gradient(#FFFFFF, #3366CC); 
     background-attachment: fixed;
+}
+/*styling the article element*/
+section article {
+	width: 22%;
+	float: left;
+	height: 15em;	
 }
 }
 /* Hide the .desktop class for mobile layout */

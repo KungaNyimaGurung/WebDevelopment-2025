@@ -1,4 +1,4 @@
-/* Kunga Nyima Gurung  03-19-2025 */
+/* Kunga Nyima Gurung  04-10-2025 */
 
 /* Style for body specifies a background color */
 body {
@@ -85,7 +85,29 @@ footer {
 .mobile {
 	display: inline;
 }
-
+/* style for div p*/
+div p{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+section {
+	padding: 1%;
+	text-align: center;
+}
+article {
+	border-top: solid 0.2em #FF6600;
+	padding: 2%;
+	margin: 0.5%;
+	text-align: left;
+}
+aside {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #FF6600;
+	font-size: 1.25em;
+	margin: 1em;
+	padding: 1em;
+}
 
 /* Media
 query for tablet
@@ -119,6 +141,23 @@ main {
 .desktop {
 	display: inline;
 	}
+
+	section {
+        background-color: #FF6600;
+}
+    article {
+        background-color: #FFFFFF;
+        border-top: 0;
+        border-radius: 0 3em 3em 3em;
+        margin-bottom: 1em;
+}
+    aside {
+        text-align: center;
+        color: #FF6600;
+        background-color: #FFFFFF;
+        box-shadow: 1em 1em 1em #000000;
+        border-radius: 8em;
+}
 }
 
 /* Media
@@ -164,6 +203,19 @@ main {
 	border-radius: 1em;
 	box-shadow: 1em 1em 1em #331400;
 	margin-top: 1em;
+	overflow: auto; 
+}
+/*Styling section*/
+section {
+	float: left;
+width: 60%; }
+
+/*styling aside*/
+aside {
+	float: right;
+	width: 25%;
+	background-color: #FF6600;
+	color: #FFFFFF;
 }
 }
 
