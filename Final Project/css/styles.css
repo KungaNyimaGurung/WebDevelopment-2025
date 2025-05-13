@@ -1,0 +1,1185 @@
+/* Kunga Nyima - Final Project */
+
+
+/* Base - Mobile First */
+/*--========== HOME CSS ==========-*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #f9fdfa;
+  
+}
+
+.logo img {
+  width: 70%;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.nav li a:hover {
+  color: #0e9b4d;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0c8740;
+  transition: background-color 0.3s ease;
+}
+
+/*--========== Interior ==========-*/
+.interior {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.interior-text h1 {
+  font-size: 2.2rem;
+  color: #0e9b4d;
+  margin-bottom: 1rem;
+}
+
+.interior-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #0e9b4d;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.interior-image img {
+  width: 100%;
+  max-width: 20rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+
+/*--========== Special ==========-*/
+
+.special {
+  background-color: #f9fdfa;
+  padding: 4rem 0;
+}
+
+.special-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  gap: 2rem;
+}
+
+.special-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.special-text {
+  max-width: 500px;
+}
+
+.special-subtitle {
+  color: #0e9b4d;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.special-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.special-description {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.special-btn {
+  display: inline-block;
+  background-color: #0e9b4d;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.special-btn:hover {
+  background-color: #0c8740;
+}
+
+
+/*--========== SERVICES ==========-*/
+.services {
+  width: 85%;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.services-subtitle {
+  color: #0e9b4d;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.services-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.service {
+  max-width: 100%;
+}
+
+.service h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.service p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/*--========== Menu Of the Week ==========-*/
+
+.menu-week {
+  width: 85%;
+  margin: 4rem auto;
+  text-align: center;
+  background-color: #f9fdfa;
+}
+
+.menu-subtitle {
+  color: #0e9b4d;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.menu-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.menu-items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  max-width: 350px;
+}
+
+.menu-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-card h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.menu-card p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.menu-card strong {
+  font-weight: bold;
+  color: #111;
+}
+
+.discover-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #0e9b4d;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+
+/*--========== CONTACT SECTION ==========-*/
+.contact-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-header .subheading {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.contact-header p {
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0a9e4f;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.contact-btn:hover {
+  background-color: #087d3d;
+}
+
+
+/*--========== FOOTER SECTION ==========-*/
+
+.footer {
+  background-color:  #087d3d;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;  /* Reduce from 1200px or fluid width */
+  margin: 0 auto;     /* Center it horizontally */
+  padding: 1rem 1rem/* Less padding than before */
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-logo img {
+  width: 35%;
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 0.6rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #087d3d;
+  transform: scale(1.2);
+}
+
+.footer-columns {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-columns div h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-columns ul li {
+  color: #cccccc;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.footer-columns p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  margin: 0.4rem 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+
+/*Pages*/
+/* === SPECIAL PAGE === */
+
+
+/* === HERO SECTION === */
+.special-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #f9fdfa;
+}
+
+.special-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.special-text h1 {
+  font-size: 2.5rem;
+  color: #087d3d;
+  margin-bottom: 0.5rem;
+}
+
+.special-text h2 {
+  font-size: 2rem;
+  color: #087d3d;
+  margin-bottom: 1rem;
+}
+
+.special-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.special-text .btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #087d3d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.special-text .btn:hover {
+  background-color: #087d3d;
+}
+
+.special-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.special-image img {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* === DETAILS SECTION === */
+.special-details {
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex;
+  background-color: #f9fdfa;
+}
+
+.special-details h2 {
+  font-size: 2rem;
+  color: #087d3d;
+  margin-bottom: 2rem;
+}
+
+.special-details ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.special-details li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.special-details i {
+  color: #087d3d;
+  margin-right: 0.5rem;
+}
+
+.video {
+	text-align: left;
+	padding: 1em;
+	}
+	video {
+	border: 0.2em solid #087d3d;
+	height: auto;
+	max-width: 100%;
+	}
+
+
+
+
+/*--========== About US Page ==========-*/
+
+
+.services-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.section-subtitle {
+  color: #087d3d;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service-box {
+  max-width: 300px;
+  text-align: center;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+/* Team Section Styles */
+
+.team-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.section-subtitle {
+  color: #087d3d;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-member {
+  max-width: 180px;
+  text-align: center;
+}
+
+.team-image {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-role {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.team-name {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+/*--========== Menu Page ==========-*/
+
+.menu-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.menu-heading .highlight {
+  color: #087d3d;
+}
+
+.menu-subheading {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.menu-btn {
+  padding: 10px 20px;
+  border: 2px solid #087d3d;
+  background-color: transparent;
+  color: #087d3d;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-btn.active,
+.menu-btn:hover {
+  background-color: #087d3d;
+  color: #fff;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.menu-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-image-container {
+  overflow: hidden;
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.menu-image-container:hover .menu-image {
+  transform: rotate(5deg) scale(1.05);
+}
+
+
+.menu-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.menu-price {
+  color: #087d3d;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.menu-desc {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.highlight {
+  color: #087d3d; /* A warm orange color */
+  font-weight: bold;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+
+/*--========== Contact Page ==========-*/
+
+.contact {
+  padding: 40px 20px;
+  background: #f4f4f4;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.right{
+  background: #087d3d;
+  color: white;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 30px;
+  min-width: 300px;
+}
+
+.left h2 {
+  color: #087d3d;
+  margin-bottom: 15px;
+}
+
+
+.left p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.info p {
+  margin: 10px 0;
+  color: #444;
+}
+
+.info i {
+  margin-right: 10px;
+  color: #087d3d;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #087d3d;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.social a:hover {
+  background: #218c6b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  background: #087d3d;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #f0f0f0;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #fff;
+}
+
+form button {
+  width: 100px;
+  padding: 10px;
+  background: white;
+  color: #087d3d;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+form button:hover {
+  background: #f1f1f1;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.submit-btn, .reset-btn {
+  background-color: white;
+  color: #087d3d;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover,
+.reset-btn:hover {
+  background-color: #ffffffcc;
+  transform: scale(1.05);
+}
+
+.mobile-only {
+  display: none;
+}
+
+
+
+
+/*--========== Reservation Page ==========-*/
+.reservation-section {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 4rem;
+}
+
+.info-panel, .form-panel {
+  padding: 2rem;
+  flex: 1 1 50%;
+  box-sizing: border-box;
+}
+
+.info-panel {
+  background: #ffffff;
+}
+
+.form-panel {
+  background: #087d3d;
+  color: white;
+}
+
+.form-panel h3 {
+  margin-bottom: 1rem;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form label {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: 500;
+}
+
+.reservation-form input {
+  background-color: white; /* Set input background to white */
+  color: #333; /* Optional: makes text readable */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+
+.submit-btn {
+  background: white;
+  color: #087d3d;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.submit-btn:hover {
+  background: #f1f1f1;
+  transform: scale(1.05);
+}
+
+/* Schedule Table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.schedule-table th, .schedule-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.schedule-table th {
+  background-color: #f3f3f3;
+  color: #087d3d;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*--========== TABLET VIEWPORT ==========-*/
+@media (min-width: 768px) {
+  .nav ul {
+      flex-direction: row;
+      gap: 2rem;
+  }
+
+  .interior-text h1 {
+      font-size: 2.8rem;
+  }
+
+  .interior {
+      padding: 3rem 0;
+  }
+
+  .interior-image img {
+      max-width: 18rem;
+  }
+
+  .services-cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .service {
+    flex-basis: 30%;
+    text-align: center;
+  }
+}
+
+/*--========== DESKTOP VIEWPORT ==========-*/
+@media (min-width: 1024px) {
+  .interior {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      padding: 5rem 0;
+  }
+
+  .interior-text {
+      flex-basis: 50%;
+      max-width: 50%;
+  }
+
+  .interior-image {
+      flex-basis: 30%;
+      max-width: 100%;
+  }
+
+  .interior-image img {
+      width: 100%;
+  }
+
+  .interior-text h1 {
+      font-size: 3.5rem;
+  }
+
+
+  .special-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .special-text {
+    flex: 1;
+    padding-left: 2rem;
+  }
+
+  .special-image {
+    flex-basis: 30%;
+      max-width: 100%;
+  } 
+}
+
+/*--========== Hiding in mobile view port ==========-*/
+
+@media (max-width: 768px) {
+  .interior-image img,
+  .menu-img {
+    display: none;
+  }
+
+  .services-cards{
+    display: block;
+  }
+
+
+  .menu-card{
+    display: none;
+  }
+  .menu-items{
+    display: block;
+  }
+  .special-image{
+    display: none;
+  }
+  .special-details .video{
+    display: none;
+  }
+  .team-section{
+    display: none;
+  }
+
+  /* Hide images on mobile */
+  .menu-image-container {
+    display: none;
+  }
+
+  /* Stack the menu card content vertically */
+  .menu-card {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .menu-title,
+  .menu-price,
+  .menu-desc {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  /* Adjust the menu grid layout to be more compact */
+  .menu-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .contact .box {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .contact .left,
+  .contact .right {
+    flex: 1 1 100%;
+  }
+
+  .contact .social a {
+    margin-right: 10px;
+  }
+
+  .mobile-only {
+    display: inline;
+  }
+  .desktop-only {
+    display: none;
+  }
+
+  .schedule-table thead {
+    display: none;
+  }
+
+  .schedule-table,
+  .schedule-table tbody,
+  .schedule-table tr,
+  .schedule-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .schedule-table tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    background: #f9f9f9;
+  }
+
+  .schedule-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .schedule-table td {
+    border: none;
+    padding: 0.5rem;
+  }
+  .footer-columns{
+    display: none;
+  }
+  .footer-logo{
+    text-align: center;
+  }
+  .footer-logo img {
+    width: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .special-details{
+    display: block;
+  }
+
+  
+}
+
