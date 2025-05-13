@@ -1,86 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="/CSS/styles.css">
-        <title>MUSTANG CAFE HOME</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="Logo of Mustang Cafe" width="60px"></a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustang Cafe</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- You can include Font Awesome or other icon libraries here if needed -->
+</head>
+<body>
+  <div class="container">
+    
+    <!--========== HEADER ==========-->
+    <header class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="Mustang Cafe Logo">
+      </div>
+      <nav class="nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="special.html">Special</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+      </nav>
+    </header>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#special" class="nav__link">Special</a></li>
-                        <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
-                        <li class="nav__item"><a href="menu.html" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact Us</a></li>
-                        <li class="nav__item"><a href="reservation.html" class="nav__link">Reservation</a></li>
+    <!--========== MAIN CONTENT ==========-->
+    <main>
+      <!-- Page-specific content goes here -->
+    </main>
 
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Mustang Cafe Logo">
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-               
-            </nav>
-        </header>
-        <!--========== FOOTER ==========-->
-        <footer class="footer section bd-container">
-            <div class="footer__container bd-grid">
-                <div class="footer__content">
-                    <a href="index.html" class="nav__logo" name="logo"><img src="IMAGES/logo.png" alt="Logo of Mustang Cafe" width="90px"></a>
-                    <span class="footer__description">Cafe</span>
-                    <div>
-                        <a href="https://www.facebook.com/kunga.tseten.143" aria-label="facebook" target="_blank" class="footer__social" name="facebook"><i class='bx bxl-facebook'></i></a>
-                        <a href="https://www.instagram.com/rapxang/" aria-label="instagram" target="_blank" class="footer__social" name="instagram"><i class='bx bxl-instagram'></i></a>
-                        <a href="https://ads.twitter.com/onboarding/18ce55ecuor/welcome" aria-label="Twitter" target="_blank" class="footer__social" name="twitter"><i class='bx bxl-twitter'></i></a>
-                    </div>
-                </div>
+        <div class="footer-columns">
+          <div>
+            <h3>Services</h3>
+            <ul>
+              <li>No-Delivery</li>
+              <li>Reasonable Pricing</li>
+              <li>Excellent & Fast food</li>
+              <li>Reserve your spot</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Information</h3>
+            <ul>
+              <li>Event</li>
+              <li>Contact us</li>
+              <li>Privacy policy</li>
+              <li>Terms of services</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Address</h3>
+            <p>Swoyambhu-Kathmandu</p>
+            <p><a href="mailto:mustangcafe@gmail.com">mustangcafe@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
 
-                <div class="footer__content">
-                    <h3 class="footer__title">Services</h3>
-                    <ul>
-                        <li><a href="#footer" class="footer__link" name="No-Delivery">No-Delivery</a></li>
-                        <li><a href="#menu" class="footer__link" name="Reasonable Pricing">Reasonable Pricing</a></li>
-                        <li><a href="#about" class="footer__link" name="Excellent & Fast Food">Excellent & Fast food</a></li>
-                        <li><a href="reservation.html" class="footer__link" name="Reservation">Reserve your spot</a></li>
-                    </ul>
-                </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 KungaNyimaCode. All rights reserved</p>
+      </div>
+    </footer>
 
-                <div class="footer__content">
-                    <h3 class="footer__title">Information</h3>
-                    <ul>
-                        <li><a href="index.html" class="footer__link" name="Event">Event</a></li>
-                        <li><a href="#contact" class="footer__link" name="Contact">Contact us</a></li>
-                        <li><a href="https://www.termsfeed.com/blog/privacy-policies-vs-terms-conditions/" target="_blank" class="footer__link" name="Privacy policy">Privacy policy</a></li>
-                        <li><a href="https://termify.io/terms-of-service-generator?gclid=Cj0KCQjwvYSEBhDjARIsAJMn0lgyuSBhL6kukO3x-NJhNjcvjVudD-tQK6JFPI-4Ide0sCAEf1aI-X4aAs5kEALw_wcB" target="_blank" class="footer__link" name="Terms & Conditions">Terms of services</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Address</h3>
-                    <ul>
-                        <li>Swoyambhu-Kathmandu</li>
-                        <li>mustangcafe@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-
-            <p class="footer__copy">&#169; 2021 KungaNyimaCode. All right reserved</p>
-        </footer>
-
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-    </body>
+  </div>
+</body>
 </html>
